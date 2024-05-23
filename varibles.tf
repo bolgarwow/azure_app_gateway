@@ -21,3 +21,16 @@ variable "listener_name" {
 variable "request_routing_rule_name" {
     default = "myRoutingRule"
 }
+#subscription
+variable "subscription_id" {
+  sensitive = true
+}
+variable "client_id" {
+  sensitive = true
+}
+variable "client_secret" {
+  sensitive = true
+}
+variable "tenant_id" {
+  sensitive = true
+}
