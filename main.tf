@@ -16,7 +16,7 @@ provider "azurerm" {
   tenant_id       = var.tenant_id
 }
 resource "random_string" "rg" {
-  length  = 8
+  length  = 3-
   upper   = false
   special = false
 }
